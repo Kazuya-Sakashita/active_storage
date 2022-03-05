@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+参考HP
+https://qiita.com/hiroki_404_/items/e71991ac88421e5caeec
+
+rails6でのupdate_attributesは非推奨となっているので、updatetとして編集。
+記事の newする際の<%= f.text_field :title %>が間違いで:titleではなく:name
+が正しい。記事最終段階では修正されている。
